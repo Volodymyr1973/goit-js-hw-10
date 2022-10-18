@@ -30,7 +30,7 @@ export function createInfo(data) {
           <img src="${itemAll.flags.png}" alt="${itemAll.name}"/>
           <p><b>Capital:</b> ${itemAll.capital}</p>
           <p><b>Population:</b> ${itemAll.population}</p>
-          <p><b>Language:</b> ${itemAll.languages}</p>
+          <p><b>Language:</b> ${itemAll.languages[0].name}</p>
           </div>`
     )
     .join('');
