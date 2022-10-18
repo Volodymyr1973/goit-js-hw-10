@@ -42,14 +42,20 @@ body {
 }
 
 .country-info div {
+  max-width: 500px;
   display: inline-block;
   border: 2px grey solid;
-  background-color: #fafafa;
+  background-color: #e1e9e8;
   border-radius: 5px;
   padding: 2px;
+  text-align: center;
 }
 
 .country-info h2 {
   text-align: center;
-  font-size: 32px;
+  font-size: 42px;
+}
+
+.country-info p {
+  text-align: center;
 }
